@@ -1,0 +1,80 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    
+    }
+
+
+    .main{
+        max-width: 100%;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+
+        &__left{
+            width: 30%;
+
+            &_paragraf{
+                color: red;
+                font-size: 12px;
+                margin-bottom: 15px;
+
+
+            }
+            &_text{
+
+                width: 50%;
+                margin-bottom: 70px;
+               
+            }
+            &_photo{
+                height: 330px;
+                width: 250px;
+
+            }
+        }
+
+
+        &__right{
+            width: 30%;
+            height: 40%;
+
+
+            &_images{
+                display: flex;
+                align-items: center;
+                column-gap: 40px;
+                margin-bottom: 40px;
+
+
+                &_img1{
+                    height: 140px;
+
+                }
+                &_img2{
+                    height: 60px;
+
+
+
+                }
+
+            }
+            &_info{
+                width: 60%;
+                &_detail{
+                    font-size: 12px;
+                    opacity: 0.7;
+
+
+                }
+
+
+            }
+
+        }
+    }

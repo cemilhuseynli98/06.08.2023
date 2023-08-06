@@ -1,0 +1,77 @@
+  
+  *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    
+    }
+    
+    .main{
+        max-width: 100%;
+        height: 100vh;
+        background-image: url(../Image/imagesss.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+
+        &__paragraf{
+         opacity: 0.9;
+            margin-bottom: 20px;
+
+        }
+         &__text{
+            width: 37%;
+            &_head{
+
+font-size: 40px;
+margin-bottom: 20px;
+            }
+
+          }
+          &__box{
+            width: 25%;
+            
+            margin-bottom: 20px;
+            &_info{
+                opacity: 0.9;
+
+            }
+          }
+          &__buttons{
+        
+
+
+            &_butcolor{
+                border: none;
+                border-radius: 5px;
+                background-color: #23A6F0;
+                padding: 10px 25px;
+                color: white;
+                font-size: 9px;
+                margin-right: 10px;
+                cursor: pointer;
+
+            }
+            &_butnormal{
+
+                border: 1px solid #23A6F0;
+                border-radius: 5px;
+                background-color: transparent;
+                padding: 8px 25px;
+                color:#23A6F0;
+                font-size: 10px;
+                cursor: pointer;
+            }
+          }
+
+
+
+    }

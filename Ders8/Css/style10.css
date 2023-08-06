@@ -1,0 +1,51 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+.main {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  -moz-column-gap: 90px;
+       column-gap: 90px;
+}
+.main .photo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  -moz-column-gap: 20px;
+       column-gap: 20px;
+}
+.main .photo_image {
+  height: 300px;
+  width: 150px;
+}
+.main .text .active {
+  border-top: 5px solid red;
+  width: 12%;
+  margin-bottom: 30px;
+}
+.main .text_head {
+  letter-spacing: 1px;
+  margin-bottom: 35px;
+}
+.main .text_paragraf {
+  width: 45%;
+}
+.main .text_paragraf_word {
+  font-size: 12px;
+  opacity: 0.7;
+  margin-bottom: 15px;
+}
+.main .text_link {
+  color: #27A7F0;
+}
+.main .text_link_logo {
+  width: 7px;
+}/*# sourceMappingURL=style10.css.map */
